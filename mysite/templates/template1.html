@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template1</title>
+</head>
+<body>
+    <h1>Esto es el Heading del archivo en HTML</h1>
+    <div>
+        <style> /*Ya se que esto es una mala practica y que deberia tener un archivo de css pero estoy atrasado con las clases :( */
+            .p {
+                font-size: 2rem;
+            }
+            #date{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        </style>
+        <p class="p">Mi nombre es: {{nombre}}</p>
+        <p class="p">Mi apellido es: {{apellido}}</p>
+    </div>
+    <div>
+        <p id="date">Esta plantilla fue creada el: {{date}}</p>
+    </div>
+</body>
+</html>
